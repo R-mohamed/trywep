@@ -1,0 +1,67 @@
+#bgvideo{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    right: 0;
+    bottom: 0;
+
+}
+
+.overlay{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    bottom: 250px;
+    left:100px;
+  
+    
+}
+.overlay h1{
+    color: white;
+    font-family: bold;
+    font-size: 80px;
+    height: 80px;
+    padding-left: 30px;
+}
+.overlay h2{
+    color: white;
+    font-family: bold;
+    font-size: 30px;
+    left: 80px;
+    
+}
+.overlay h3{
+    color: white;
+    font-size: 40 bold;
+    padding-left: 80px;
+    height: 100px;
+}
+.lay{
+    
+ position: absolute;
+ width: 150px;
+ height: 60px;
+ bottom: 200px;
+ left: 100px;
+
+}
+.lay button{
+    display: inline-block;
+    color: black;
+    font-family:'Lalezar';
+    font-size: larger;
+
+}
+
+@media screen and (min-width:1200px)
+{
+    #hero .caption h1{
+        font-size: 3rem;
+    }
+    #hero .caption h2{
+        font-size: 2.5rem;
+    }
+}
+
+    
+
