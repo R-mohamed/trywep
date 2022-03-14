@@ -36,16 +36,16 @@
     padding-left: 80px;
     height: 100px;
 }
-.lay{
+.btn{
     
  position: absolute;
- width: 150px;
- height: 60px;
+ width: 100px;
+ height: 50px;
  bottom: 200px;
  left: 100px;
 
 }
-.lay button{
+.btn a{
     display: inline-block;
     color: black;
     font-family:'Lalezar';
